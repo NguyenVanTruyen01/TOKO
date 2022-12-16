@@ -1,0 +1,54 @@
+.category{
+    .title{
+        margin-left: 25px;
+        h3{
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 24px;
+            display: flex;
+          
+            color: #000000;
+        }
+    }
+    .list{
+        ul{
+            margin-top: 4px;
+            margin-left: -20px;
+            font-size: 16px;
+            list-style: none;
+            
+            li{
+                font-weight: 500;
+                padding: 4px 0;
+                position: relative;
+                i{
+                    font-size: 14px;
+                    color: rgb(57, 58, 58);
+                    
+                }
+                input{
+                    width: 17px;
+                    height: 17px;
+                    margin-top: 0px;
+                    position: absolute;
+                    bottom: 2px;
+                }
+            }
+        }
+    }
+}
+.listTitle {
+    font-size: 16px;
+    color: rgb(80, 81, 81);
+    margin-top: 5px;
+}
+.listChild{
+    list-style: none;
+    font-size: 16px;   
+     li{
+        input{
+            width: 30px;
+            height: 12px;
+        }
+    }
+}

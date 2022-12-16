@@ -1,0 +1,13 @@
+.titleSearch{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #888888;
+    span{
+        background: -webkit-linear-gradient(#C63EBE, #6B29AA);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        // color: #C63EBE;
+        // background: linear-gradient(#C63EBE, #6B29AA);
+    }
+}

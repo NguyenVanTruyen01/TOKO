@@ -1,0 +1,52 @@
+.priceRange {
+    width: 100%;
+
+    .title {
+        margin-left: 25px;
+
+        h3 {
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 24px;
+            display: flex;
+
+            color: #000000;
+        }
+    }
+
+    .minimun {
+        // color: #4E4E4E;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        width: 78.125%;
+        padding-left: 10.9375%;
+
+        .mainminimun {
+            text-align: center;
+            border-radius: 6px;
+            color: #ADADAD;
+        }
+
+    }
+
+    .money {
+        color: #4E4E4E;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        width: 78.125%;
+        padding-left: 10.9375%;
+
+        .mainmoney {
+            border: 1px solid #9f9e9e;
+            text-align: center;
+            border-radius: 10px;
+            height: 50px;
+
+            p {
+                margin: 9px 0;
+            }
+        }
+    }
+}

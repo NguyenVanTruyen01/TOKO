@@ -1,0 +1,40 @@
+.specialPost {
+    position: relative;
+    width: 100%;
+
+    .action {
+        .pre {
+            position: absolute;
+            z-index: 200;
+            left: -45px;
+            top: 50%;
+            cursor: pointer;
+
+        }
+
+        .next {
+            position: absolute;
+
+            z-index: 200;
+            right: -45px;
+            top: 50%;
+            cursor: pointer;
+
+        }
+    }
+}
+
+.pre,
+.next {
+    opacity: 0.6;
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    filter: drop-shadow(2px 5px 7px rgba(0, 0, 0, 0.1));
+
+    &:hover {
+        opacity: 1;
+    }
+}

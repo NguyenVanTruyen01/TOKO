@@ -1,0 +1,114 @@
+.cart {
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #ffffff;
+    position: relative;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+
+    .image {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://tse3.mm.bing.net/th?id=OIP.mVf_jyL4t0djTdrJ00K2MAHaJQ&pid=Api&P=0");
+        width: 100%;
+        height: 180px;
+    }
+
+    .icon {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26px;
+        height: 26px;
+        padding: 2px;
+        border-radius: 50%;
+        background: #ffffff;
+        font-size: 14px;
+        right: 8px;
+        top: 40%;
+        color: #FA808A;
+    }
+
+    .title {
+        width: 90%;
+        padding: 0 5%;
+
+        p {
+            margin-top: 8px;
+        }
+
+        .nameProduct {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #22335B;
+        }
+
+        .addressProduct {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            display: flex;
+            align-items: center;
+            color: #888888;
+        }
+
+        .priceProduct {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(180deg, #C63EBE 0%, #6B29AA 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+
+    .line {
+        border-bottom: 1px solid #b4b2b2;
+        border-left: 1px solid #ffffff;
+        border-top: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
+
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .author {
+        display: flex;
+        width: 90%;
+        padding: 8px 5%;
+
+        .image {
+            margin-left: 10px;
+            width: 35px;
+            height: 35px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://tse1.mm.bing.net/th?id=OIP.smS_qOTuGwx96iX9pSl3rQHaK5&pid=Api&P=0");
+            border-radius: 50%;
+        }
+
+        .createby {
+            margin-left: 20px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+
+            /* Gray */
+
+            color: #888888;
+        }
+    }
+}

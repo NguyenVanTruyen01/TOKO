@@ -1,0 +1,37 @@
+.rating{
+    // display: flex;
+    .title{
+        margin-left: 25px;
+        h3{
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 24px;
+            display: flex;
+          
+            color: #000000;
+        }
+    }
+    .mainStar{
+        display: flex;
+        margin-top: -10px;
+        padding-left: 25px;
+        .checkbox{
+            input{
+                border-radius: 2px;
+                border:0.5px solid #ADADAD;
+                padding: 8px;
+                width: 18px;
+                height: 18px;
+            }
+        }
+        .star{
+            margin-left: 10px;
+            display: flex;
+            font-size: 16px;
+            color: #ADADAD;
+        }
+    }
+}
+.spec{
+    margin-left: 5px;
+}
